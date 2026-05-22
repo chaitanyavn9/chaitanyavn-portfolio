@@ -85,6 +85,13 @@ export default function Home() {
               >
                 LinkedIn
               </a>
+              <a
+  href="/resume.pdf"
+  target="_blank"
+  className="px-8 py-4 rounded-2xl border border-cyan-500 text-cyan-400 hover:bg-cyan-500/10 transition"
+>
+  Download Resume
+</a>
             </div>
           </motion.div>
         </div>
