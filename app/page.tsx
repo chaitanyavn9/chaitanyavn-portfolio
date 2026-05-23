@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   const metrics = [
     {
-      number: "14+",
+      number: "12+",
       label: "Years Experience",
     },
     {
@@ -58,7 +58,7 @@ export default function Home() {
             </p>
 
             <h1 className="text-6xl md:text-7xl font-black leading-tight mb-6">
-              Chaitanya VN
+              VN Chaitanya
             </h1>
 
             <p className="text-zinc-300 text-xl max-w-4xl leading-relaxed">
@@ -131,7 +131,7 @@ export default function Home() {
             </h2>
 
             <p className="text-zinc-400 text-lg leading-relaxed">
-              Senior QA Automation Engineer with 14+ years of
+              Senior QA Automation Engineer with 12+ years of
               experience designing scalable automation
               frameworks, enterprise QA solutions, and modern
               testing ecosystems for large-scale enterprise
@@ -404,7 +404,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-14 flex flex-col md:flex-row items-center justify-between">
           <div>
             <h3 className="text-2xl font-bold">
-              Chaitanya VN
+              VN Chaitanya
             </h3>
 
             <p className="text-zinc-500 mt-2">
