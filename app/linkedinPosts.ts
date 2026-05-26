@@ -58,6 +58,17 @@ export const linkedInPosts: LinkedInPost[] = [
     featured: true,
   },
   {
+    title: "Building an AI Failure Analyzer for Test Automation",
+    description:
+      "Most automation suites tell you a test failed — but not why. This post explores how to build an AI-powered failure analyzer that categorises failures into flaky, network, environment, product, and automation buckets, enabling faster root cause analysis and smarter debugging.",
+    tags: ["AI", "Test Automation", "Failure Analysis", "Playwright", "Observability"],
+    link: "https://www.linkedin.com/posts/chaitanyavn_automation-ai-failure-analyzer-ugcPost-7464900624967487488-CDNx/",
+    type: "Carousel",   // change to "Article" if it wasn't a carousel
+    slides: 7,          // update to actual slide count
+    date: "Jun 2026",
+    featured: true,
+  },
+  {
     title: "Cucumber vs Gauge — Which BDD Framework Actually Scales?",
     description:
       "A framework decision you make in week one compounds over the next two years. Head-to-head comparison across 9 criteria that matter at scale — readability, maintainability, API testing, parallel execution, and reusability — based on real experience with both frameworks across enterprise projects.",
