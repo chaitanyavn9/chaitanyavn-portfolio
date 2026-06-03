@@ -97,6 +97,6 @@ export const linkedInPosts: LinkedInPost[] = [
     link: "https://www.linkedin.com/posts/chaitanyavn_qa-repo-separate-or-embedded-heres-is-activity-7467806333396963330-NW4Y?utm_source=share&utm_medium=member_desktop&rcm=ACoAAANGq4oBQo_0tiAWuT99az64TCGkCVR1e0o",
     type: "Article",
     date: "Jun 2026",
-    featured: false,
+    featured: true,
   }
 ];
