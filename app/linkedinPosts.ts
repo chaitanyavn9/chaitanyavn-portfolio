@@ -90,7 +90,7 @@ export const linkedInPosts: LinkedInPost[] = [
     featured: false,
   },
   {
-    title: "QA Repo: Separate or Embedded? Here's Is.",
+    title: "QA Repo: Separate or Embedded? Here's is my take.",
     description:
       "The age-old debate in software engineering. A deep dive into the pros and cons of maintaining a separate QA repository versus embedding tests within the main application codebase — with real-world examples and a clear recommendation.",
     tags: ["QA", "Repository Management", "Software Engineering"],
