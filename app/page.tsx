@@ -286,6 +286,71 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── PERSONAL PROJECTS ────────────────────────────────────────────── */}
+      <section className="max-w-7xl mx-auto px-6 py-24">
+        <p className="text-cyan-400 uppercase tracking-[0.3em] text-sm mb-4">
+          Personal Projects
+        </p>
+        <h2 className="text-5xl font-bold mb-14">Things I&apos;ve Built</h2>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Tiny Astronaut */}
+          <motion.a
+            href="https://www.tinyastronaut.space/"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ y: -8 }}
+            className="group bg-zinc-900 border border-zinc-800 hover:border-cyan-500 rounded-3xl p-8 flex flex-col transition-colors"
+          >
+            <div className="flex justify-center mb-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/tiny-astronaut-logo.png"
+                alt="Tiny Astronaut logo"
+                className="w-48 h-48 object-contain rounded-2xl"
+              />
+            </div>
+
+            <h3 className="text-2xl font-bold text-white group-hover:text-cyan-400 transition-colors mb-3">
+              Tiny Astronaut
+            </h3>
+
+            <p className="text-zinc-400 leading-relaxed text-sm flex-1">
+              A free, interactive astronomy platform for curious young minds.
+              Explore the Solar System with a live animated orrery, discover
+              Galaxies, Moons, Constellations, and Space Missions, and browse
+              45 real NASA and Hubble photos in the Cosmic Gallery. Dive into
+              Space Mysteries like black holes and test your knowledge with fun
+              quizzes. The unique <span className="text-cyan-400">Gravity Passport</span> calculates your weight on
+              every planet, moon, and star in the universe — generating a
+              personalized downloadable space document. No ads, no accounts,
+              nothing stored. Just pure space exploration designed to inspire
+              the next generation of astronomers.
+            </p>
+
+            <div className="flex flex-wrap gap-2 mt-6">
+              {["Astronomy", "Interactive", "Kids", "NASA", "Free"].map((tag) => (
+                <span
+                  key={tag}
+                  className="px-3 py-1 rounded-full bg-black border border-zinc-700 text-zinc-400 text-xs"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+
+            <span className="mt-6 text-cyan-400 text-sm font-medium group-hover:text-cyan-300 transition-colors">
+              Visit tinyastronaut.space →
+            </span>
+          </motion.a>
+
+          {/* Placeholder card — add more projects here */}
+          <div className="bg-zinc-900/40 border border-dashed border-zinc-700 rounded-3xl p-8 flex items-center justify-center min-h-[300px]">
+            <p className="text-zinc-600 text-center text-sm">More projects<br />coming soon…</p>
+          </div>
+        </div>
+      </section>
+
       {/* ── LINKEDIN CAROUSEL ────────────────────────────────────────────── */}
       <LinkedInCarousel />
 
